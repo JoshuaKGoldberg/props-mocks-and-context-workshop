@@ -1,0 +1,38 @@
+{
+  "author": "Josh Goldberg <me@joshuakgoldberg.com>",
+  "engines": {
+    "node": "16 || 18"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
+    "react": "^17.0.0"
+  },
+  "description": "Companion repository for my Props, Mocks, and Context: Unit Testing Heavy Components workshop.",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/react": "^12.0.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
+    "babel-jest": "^27.5.1",
+    "enzyme": "^3.11.0",
+    "fetch-mock": "^9.11.0",
+    "jest": "^27.5.1",
+    "jest-enzyme": "^7.1.2"
+  },
+  "keywords": [
+    "context",
+    "mocks",
+    "props",
+    "react",
+    "workshop",
+    "testing",
+    "unit tests"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "name": "props-mocks-and-context-workshop",
+  "version": "1.0.0"
+}
